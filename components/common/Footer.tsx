@@ -74,7 +74,7 @@ const Footer = () => {
 
       {/* section 3 */}
       <div>
-        <h1 className="text-[#2e386a] ms-0 md:ms-10 text-[25px] md:text-right mt-10 text-center font-bold pr-4">
+        <h1 className="text-[#2e386a] ms-0 md:ms-10 text-xl md:text-[25px] md:text-right mt-10 text-center font-bold pr-4">
           Your trusted travel guide
           <br />
           online consultant

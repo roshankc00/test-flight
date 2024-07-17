@@ -67,9 +67,9 @@ const FilterBar = () => {
   };
 
   return (
-    <div className="mt-10 mx-auto max-w-6xl px-4 sm:px-6 lg-px-8 my-10 z-0 ">
+    <div className="mt-10 mx-auto max-w-6xl px-2 sm:px-6 lg-px-8 my-10 z-0 ">
       <div className="flex justify-center">
-        <Card className=" p-3 py-5 bg-[#bae1d6] xl:w-[800px] w-full rounded-3xl">
+        <Card className=" py-5 bg-[#bae1d6] xl:w-[800px] w-full rounded-3xl">
           <CardContent>
             {/* first row */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">

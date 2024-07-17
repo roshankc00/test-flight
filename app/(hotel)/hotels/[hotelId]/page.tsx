@@ -15,10 +15,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { SlCalender } from "react-icons/sl";
 import { useGetSingleHotel } from "@/hooks/react-query/hotels/get-single-hotels";
 const SingleHotelPage = ({ params }: { params: { hotelId: string } }) => {
-  const { data } = useGetSingleHotel(params.hotelId);
+  const { data, isFetching, isLoading } = useGetSingleHotel(params.hotelId);
 
-  const isLoading = false;
-  const isFetching = false;
   return (
     <div className="mb-10">
       {!isLoading && !isFetching && (
