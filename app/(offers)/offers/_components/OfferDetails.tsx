@@ -32,7 +32,7 @@ const OfferDetails = () => {
     price: DEFAULT_CUSTOM_PRICE,
   });
   return (
-    <div className="mx-auto max-w-6xl px-4 sm:px-6 lg-px-8 my-10 z-0 ">
+    <div className="mx-auto max-w-6xl  my-10 z-0 ">
       <div className="flex justify-center flex-col items-center mt-10">
         <h3 className="text-[#2d3769] text-3xl  font-bold ">Offers</h3>
 
@@ -378,11 +378,11 @@ const OfferDetails = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 mt-10">
         <HotelCard hotel={{ name: "hotel1", hotelId: "HSBCNARR" }} />
-        <HotelCard hotel={{ name: "hotel1", hotelId: "HSBCNARR" }} />
-        <HotelCard hotel={{ name: "hotel1", hotelId: "HSBCNARR" }} />
-        <HotelCard hotel={{ name: "hotel1", hotelId: "HSBCNARR" }} />
-        <HotelCard hotel={{ name: "hotel1", hotelId: "HSBCNARR" }} />
-        <HotelCard hotel={{ name: "hotel1", hotelId: "HSBCNARR" }} />
+        <HotelCard hotel={{ name: "hotel2", hotelId: "HSBCNARR" }} />
+        <HotelCard hotel={{ name: "hotel3", hotelId: "HSBCNARR" }} />
+        <HotelCard hotel={{ name: "hotel4", hotelId: "HSBCNARR" }} />
+        <HotelCard hotel={{ name: "hotel5", hotelId: "HSBCNARR" }} />
+        <HotelCard hotel={{ name: "hotel6", hotelId: "HSBCNARR" }} />
       </div>
     </div>
   );

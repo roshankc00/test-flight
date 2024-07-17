@@ -53,8 +53,9 @@ const LoginForms = () => {
           name: user?.displayName,
           uid: user?.uid,
         });
+
         Cookies.set("Authentication", data.token);
-        router.back();
+        window.location.href = "/";
       }
     });
   });

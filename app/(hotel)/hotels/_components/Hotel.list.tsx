@@ -7,8 +7,8 @@ import React from "react";
 const HotelList = () => {
   const { data, isLoading, isFetching } = useGetFeaturedHotels();
   return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg-px-8 my-10 z-0 ">
-      <div className="grid grid-cols-1    px-10 md:px-0 md:grid-cols-2 2xl:grid-cols-3 gap-2 gap-y-5 place-content-center">
+    <div className="mx-auto max-w-7xl px-4 z-0 ">
+      <div className="grid grid-cols-1     md:px-0 md:grid-cols-2 2xl:grid-cols-3 gap-2 gap-y-5 place-content-center">
         {isLoading &&
           isFetching &&
           new Array(10)
