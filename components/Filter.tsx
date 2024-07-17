@@ -229,7 +229,7 @@ const FilterBar = () => {
                 </Select>
               </div>
               <div>
-                <h3 className="text-[#2d3769] text-[18px] font-bold mb-1 ">
+                <h3 className="text-[#2d3769] text-[16px] font-bold mb-1 ">
                   No Of Child Pessenger
                 </h3>
                 <Select
