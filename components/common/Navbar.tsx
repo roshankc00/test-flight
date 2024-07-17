@@ -38,8 +38,7 @@ const Navbar = () => {
       <div>
         <Sheet open={sheetOpen} onOpenChange={setSheetOpen}>
           <SheetTrigger className=" hover:opacity-75 transition">
-            <Menu size={50} color="white" className="hidden 2xl:block" />
-            <Menu size={20} color="white" className="2xl:hidden block" />
+            <Menu size={50} color="white" className="" />
           </SheetTrigger>
           <SheetContent side={"right"} className="p-0 w-[260px] bg-white">
             s
