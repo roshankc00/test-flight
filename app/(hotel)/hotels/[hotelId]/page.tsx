@@ -60,7 +60,7 @@ const SingleHotelPage = ({ params }: { params: { hotelId: string } }) => {
                       className=" rounded-t-2xl w-full"
                     />
 
-                    <div className="bg-[#ededed] pt-2 pb-10 rounded-b-2xl px-0 2xl:px-2 ">
+                    <div className="bg-[#ededed] pt-2 pb-10 rounded-b-2xl px-2 2xl:px-2 ">
                       <div className="flex justify-between px-0 sm:px-4   ">
                         <div className="w-[30%] pt-10">
                           <h1 className="text-[#2d3769] font-bold">
