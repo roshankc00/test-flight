@@ -41,7 +41,6 @@ const Navbar = () => {
             <Menu size={50} color="white" className="" />
           </SheetTrigger>
           <SheetContent side={"right"} className="p-0 w-[260px] bg-white">
-            s
             <div className="flex justify-center items-center">
               <Image alt="Logo" src={Footerlogo} className="mt-10 " />
             </div>
